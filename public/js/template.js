@@ -71,7 +71,8 @@ module.exports =
 	      'body',
 	      null,
 	      React.createElement('div', { id: 'container', dangerouslySetInnerHTML: appRender }),
-	      React.createElement('script', { dangerouslySetInnerHTML: appProps })
+	      React.createElement('script', { dangerouslySetInnerHTML: appProps }),
+	      React.createElement('script', { src: '/js/bundle.js' })
 	    )
 	  ));
 	  return '<!DOCTYPE html>' + html;

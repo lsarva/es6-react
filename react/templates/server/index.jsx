@@ -14,6 +14,7 @@ module.exports = function (props) {
     <body>
       <div id="container" dangerouslySetInnerHTML={appRender}/>
       <script dangerouslySetInnerHTML={appProps}/>
+      <script src="/js/bundle.js"></script>
     </body>
     </html>
   )
