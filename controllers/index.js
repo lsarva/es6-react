@@ -1,4 +1,4 @@
-var template = require('../public/js/template.js')
+var template = require('../dist/js/template.js')
 var path = require('path')
 
 module.exports = function indexController (req, res) {

@@ -1,6 +1,7 @@
 var React = require("react")
 var ReactDOMServer = require('react-dom/server')
 var CommentBox = require('../../components/CommentBox.jsx')
+require('../../../sass/main.scss')
 
 module.exports = function (props) {
   var appRender = { __html: ReactDOMServer.renderToString(<CommentBox data={props}/>) }
